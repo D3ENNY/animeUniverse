@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1010.0" prefWidth="1910.0" style="-fx-background-color: #2F2B43;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+   <children>
+      <AnchorPane prefHeight="1010.0" prefWidth="1919.0" style="-fx-background-color: # #2F2B43;" stylesheets="@../css/fullpackstyling.css">
+         <children>
+            <AnchorPane layoutX="813.0" layoutY="460.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="467.0" prefWidth="310.0" style="-fx-background-color: #2c344b;">
+               <children>
+                  <AnchorPane layoutY="419.0" onMouseClicked="#enter" prefHeight="48.0" prefWidth="310.0" style="-fx-background-color: #43bb73;">
+                     <children>
+                        <Label fx:id="login" layoutX="133.0" layoutY="11.0" mouseTransparent="true" prefHeight="26.0" prefWidth="48.0" text="Login" textFill="#fefefe">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="48.0" prefWidth="310.0" style="-fx-background-color: #2c344b;">
+                     <children>
+                        <Label layoutX="100.0" layoutY="14.0" prefHeight="20.0" prefWidth="128.0" text="Anime Universe" textFill="#8c90b3">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="20.0" layoutY="234.0" prefHeight="50.0" prefWidth="270.0" style="-fx-border-color: #8c90b3; -fx-border-radius: 2;">
+                     <children>
+                        <TextField fx:id="username" layoutY="1.0" prefHeight="48.0" prefWidth="270.0" style="-fx-background-color: back;" />
+                     </children></AnchorPane>
+                  <AnchorPane layoutX="20.0" layoutY="326.0" prefHeight="50.0" prefWidth="270.0" style="-fx-border-color: #8c90b3; -fx-border-radius: 2;">
+                     <children>
+                        <PasswordField fx:id="password" layoutY="2.0" prefHeight="48.0" prefWidth="270.0" style="-fx-background-color: dsc;" />
+                     </children></AnchorPane>
+                  <ImageView fx:id="ic" fitHeight="152.0" fitWidth="161.0" layoutX="79.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/systemImage/favicon.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="20.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="USERNAME: " />
+                  <Text fill="WHITE" layoutX="20.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PASSWORD: " />
+                 
+            
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="963.0" fitWidth="973.0" layoutX="1224.0" layoutY="47.0" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/systemImage/waifu.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="1010.0" fitWidth="690.0" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/systemImage/waifu2.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="551.0" fitWidth="524.0" layoutX="813.0" layoutY="-91.0" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/systemImage/waifu3.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

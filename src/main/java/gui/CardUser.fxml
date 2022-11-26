@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorPane" onMouseClicked="#selectAnime" prefHeight="227.0" prefWidth="473.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CardUserController">
+   <children>
+      <Pane fx:id="pane" onMouseClicked="#selectAnime" prefHeight="227.0" prefWidth="473.0">
+         <children>
+            <Button fx:id="btn" mnemonicParsing="false" onMouseClicked="#selectAnime" opacity="0.7" prefHeight="225.0" prefWidth="473.0" styleClass="button2" stylesheets="@../css/fullpackstyling.css" />
+            <Text fx:id="animeTitle" fill="WHITE" layoutX="288.0" layoutY="75.0" mouseTransparent="true" onMouseClicked="#selectAnime" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="185.0325927734375">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="animeImage" fitHeight="150.0" fitWidth="367.0" layoutX="14.0" layoutY="39.0" mouseTransparent="true" onMouseClicked="#selectAnime" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/animeImage/1.png" />
+               </image>
+            </ImageView>
+         </children>
+         <padding>
+            <Insets left="30.0" right="30.0" />
+         </padding>
+      </Pane>
+   </children>
+</AnchorPane>
